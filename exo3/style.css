@@ -1,0 +1,17 @@
+#getFactButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  #factContainer {
+    margin-top: 1rem;
+  }
+
+  .factDiv {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+  }
