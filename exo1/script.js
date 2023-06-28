@@ -9,10 +9,10 @@ loadRulesButton.addEventListener('click', () => {
           rulesList.appendChild(li);
         });
       } else {
-        console.log('Les règles de bécodage sont au mauvais format.');
+        console.table('Les règles de bécodage sont au mauvais format.');
       }
     })
     .catch(error => {
-      console.log('Une erreur s\'est produite lors du chargement des règles', error);
+      console.table('Une erreur s\'est produite lors du chargement des règles', error);
     });
 });
